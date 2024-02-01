@@ -14,7 +14,7 @@ device_data = {
 def calculate_hash(data):
     # Convert data to a string
     data_string = str(data)
-    # Create a SHA-256 hasher object
+    # Create a SHA-256 hasher object- it can be changed based on the agreed Hash function in Smart Contract
     hasher = hashlib.sha256()
     # Encode the data string as bytes
     encoded_data = data_string.encode()
