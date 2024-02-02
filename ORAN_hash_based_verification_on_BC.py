@@ -4,7 +4,7 @@ import hashlib
 device_data = {
     "serial_number": "Ali123",
     "firmware_version": "1.1.2",
-    "manufacturer": "Ericsson"
+    "manufacturer": "ex Ericsson"
 }
 
 
